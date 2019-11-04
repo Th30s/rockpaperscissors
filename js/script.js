@@ -4,8 +4,10 @@
 
 //GLOBAL VARIABLES
 /* global $ */
-
-
+let rpc = ["rock", "paper", "scissor"]
+$("#shoot").click(function(){
+    $("#userChoice").text($("#input").val());
+});
 
 // DOCUMENT READY FUNCTION BELOW
 
