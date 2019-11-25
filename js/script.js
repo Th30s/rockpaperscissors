@@ -20,8 +20,10 @@ $("#shoot").click(function(){
     //User Choice//
     let userChoice = $("#input").val();
     $("#userChoice").text(userChoice.toLowerCase());
-    //Winner
-    if (computerCoice === )
+    //Winner//
+    if (2===2){
+        console.log(good);
+    }
 });
 
 // DOCUMENT READY FUNCTION BELOW
